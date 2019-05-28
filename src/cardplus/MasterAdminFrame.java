@@ -1285,7 +1285,7 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         String phone=jTextField19.getText();
         String uname=jTextField20.getText();
         String pass=jPasswordField1.getText();
-        String role=jComboBox11.getSelectedItem().toString();
+        String rol=jComboBox11.getSelectedItem().toString();
         
     }//GEN-LAST:event_jButton7ActionPerformed
 

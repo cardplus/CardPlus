@@ -365,7 +365,6 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel11.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, 148, -1));
         jPanel11.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 243, -1));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-administrator-male-120.png")); // NOI18N
         jLabel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel11.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 70, 120, 140));
 
@@ -612,7 +611,6 @@ public class MasterAdminFrame extends javax.swing.JFrame {
 
         jPanel16.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Select Operation", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-add-file-48.png")); // NOI18N
         jButton4.setText("Create Record");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -620,10 +618,8 @@ public class MasterAdminFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-edit-file-48.png")); // NOI18N
         jButton5.setText("Update Record");
 
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-delete-file-48.png")); // NOI18N
         jButton6.setText("Delete Record");
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
@@ -720,7 +716,7 @@ public class MasterAdminFrame extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
 
-        jTabbedPane1.addTab("Student Panel", new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-user-48.png"), jPanel1); // NOI18N
+        jTabbedPane1.addTab("Student Panel", null, jPanel1);
 
         jPanel2.setBackground(new java.awt.Color(219, 238, 238));
 
@@ -780,6 +776,12 @@ public class MasterAdminFrame extends javax.swing.JFrame {
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mr.", "Mrs.", "Master", "Miss" }));
         jPanel17.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
+
+        jTextField16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField16ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 90, 210, -1));
         jPanel17.add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, 210, -1));
         jPanel17.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 210, -1));
@@ -796,6 +798,11 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel17.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, 210, -1));
 
         jButton7.setText("ADD");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 70, 60));
 
         jPanel18.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Update Administartor", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
@@ -863,6 +870,11 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel18.add(jTextField26, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, 210, -1));
 
         jButton9.setText("UPDATE");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel18.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, -1, 60));
 
         jPanel19.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Delete Administartor", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
@@ -875,6 +887,11 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel19.add(jTextField27, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 50, 210, -1));
 
         jButton10.setText("DELETE");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jPanel19.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 50, -1, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -904,7 +921,7 @@ public class MasterAdminFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Admin Panel", new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-administrator-male-48.png"), jPanel2); // NOI18N
+        jTabbedPane1.addTab("Admin Panel", null, jPanel2);
 
         jPanel3.setBackground(new java.awt.Color(219, 238, 238));
 
@@ -935,7 +952,7 @@ public class MasterAdminFrame extends javax.swing.JFrame {
             .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jTabbedPane1.addTab("Student List", new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-student-center-48.png"), jPanel3); // NOI18N
+        jTabbedPane1.addTab("Student List", null, jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(219, 238, 238));
 
@@ -966,7 +983,7 @@ public class MasterAdminFrame extends javax.swing.JFrame {
             .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jTabbedPane1.addTab("Admin List", new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-conference-48.png"), jPanel4); // NOI18N
+        jTabbedPane1.addTab("Admin List", null, jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(219, 238, 238));
 
@@ -1000,12 +1017,27 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel20.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 310, -1));
 
         jButton11.setText("REMOVE");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
 
         jButton12.setText("ADD");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
 
         jButton13.setText("UPDATE");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, -1, -1));
 
         jPanel21.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Add New Department", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
@@ -1022,12 +1054,27 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel21.add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 310, -1));
 
         jButton14.setText("REMOVE");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
         jPanel21.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
 
         jButton15.setText("ADD");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
         jPanel21.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
 
         jButton16.setText("UPDATE");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
         jPanel21.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, -1, -1));
 
         jPanel22.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Add New Hostels", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
@@ -1044,12 +1091,27 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel22.add(jTextField28, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 310, -1));
 
         jButton17.setText("REMOVE");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
         jPanel22.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
 
         jButton18.setText("ADD");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
         jPanel22.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
 
         jButton19.setText("UPDATE");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
         jPanel22.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, -1, -1));
 
         jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Add New Mess", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Trebuchet MS", 1, 18))); // NOI18N
@@ -1066,12 +1128,27 @@ public class MasterAdminFrame extends javax.swing.JFrame {
         jPanel23.add(jTextField29, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 310, -1));
 
         jButton20.setText("REMOVE");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
         jPanel23.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
 
         jButton21.setText("ADD");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
         jPanel23.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
 
         jButton22.setText("UPDATE");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
         jPanel23.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, -1, -1));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -1100,10 +1177,10 @@ public class MasterAdminFrame extends javax.swing.JFrame {
                     .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(267, Short.MAX_VALUE))
+                .addContainerGap(280, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Settings", new javax.swing.ImageIcon("C:\\Users\\Marshall\\Downloads\\icons8-automatic-48.png"), jPanel5); // NOI18N
+        jTabbedPane1.addTab("Settings", null, jPanel5);
 
         getContentPane().add(jTabbedPane1);
 
@@ -1200,6 +1277,85 @@ public class MasterAdminFrame extends javax.swing.JFrame {
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
 
     }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        String deg=jComboBox10.getSelectedItem().toString();
+        String name=jTextField16.getText()+jTextField17.getText();
+        String email=jTextField18.getText();
+        String phone=jTextField19.getText();
+        String uname=jTextField20.getText();
+        String pass=jPasswordField1.getText();
+        String role=jComboBox11.getSelectedItem().toString();
+        
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jTextField16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField16ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        String deg=jComboBox12.getSelectedItem().toString();
+        String name=jTextField26.getText()+jTextField22.getText();
+        String email=jTextField23.getText();
+        String phone=jTextField24.getText();
+        String uname=jTextField25.getText();
+        String pass=jPasswordField2.getText();
+        String role=jComboBox13.getSelectedItem().toString();
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+         String uname=jTextField27.getText();
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+
+       String clgname=jTextField5.getText();
+    
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    String clgname=jTextField5.getText();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        String clgname=jTextField5.getText();       
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        String depname=jTextField15.getText();
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        String depname=jTextField15.getText();
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        String depname=jTextField15.getText();
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        String hosname=jTextField28.getText();
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        String hosname=jTextField28.getText();
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        String hosname=jTextField28.getText();
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        String messname=jTextField29.getText();
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        String messname=jTextField29.getText();
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+       String messname=jTextField29.getText();
+    }//GEN-LAST:event_jButton20ActionPerformed
 
     /**
      * @param args the command line arguments
